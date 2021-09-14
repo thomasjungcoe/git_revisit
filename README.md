@@ -33,6 +33,13 @@ git log
 # 2.) Saving changes 
 # ============================================================
 
+# map remote repo at () to a ref in local repo
+git remote add <remote_name> <remote_repo_url>
+
+# push the local repo branch to remote repo
+# also had to create shh credentials for pushing
+git push -u origin master
+
 
 
 
