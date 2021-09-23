@@ -1,0 +1,6 @@
+#!/bin/bash
+#<<"C:/Users/Thomas H-CTR Jung/Desktop/Study/Git_Tutorial/repo2/git_revisit">> = branch I am pushing to
+git status
+git add .
+git commit -m "auto commit" $1
+git push origin main
